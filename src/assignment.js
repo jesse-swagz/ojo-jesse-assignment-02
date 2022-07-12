@@ -16,18 +16,18 @@ const assignment = {};
 
 function sumOfNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
-}
 
-
-const arrayofNumbers = [1,2,3,4,5,6,7,8,9,10];
 let sumofNumbers = 0;
 for (let num = 0; num < arrayofNumbers.length; num++) {
 
   sumofNumbers += arrayofNumbers[num];
-  
-}
 
-console.log("Sum of Numbers in Array = " + sumofNumbers);
+  return sumofNumbers;
+  
+}}
+
+
+
 
 
 /**
@@ -41,16 +41,15 @@ console.log("Sum of Numbers in Array = " + sumofNumbers);
  */
 function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
-}
 
-
-
-const arrayofNumber = [1,2,3,4,5,6,7,8,9,10,11];
-
-let evenNumbers = arrayofNumber.filter( number => {
+  let evenNumbers = arrayofNumber.filter( number => {
   return number % 2 ===0;
-})
-console.log("Number of Even number in array = " + evenNumbers.length);
+
+  return evenNUmbers.length;
+})}
+
+
+
 
 
 
