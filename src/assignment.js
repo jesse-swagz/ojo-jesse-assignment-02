@@ -65,7 +65,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
-assignment['sumofNumbers'] = sumofNumbers;
+assignment['sumofNumbers'] = sumOfNumbers;
 assignment['countEvenNUmbers'] = countEvenNumbers;
 
 
