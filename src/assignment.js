@@ -23,10 +23,6 @@ return sumofNumbers;
 }
 
 
-
-
-
-
 /**
  * Challenge - 2
  * 
@@ -67,6 +63,10 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers;
 }
 // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+
+
+assignment['sumofNumbers'] = sumofNumbers;
+assignment['countEvenNUmbers'] = countEvenNumbers;
 
 
 // ========================
